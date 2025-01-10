@@ -1,0 +1,76 @@
+body {
+	background-color: #333;
+	color: #ddd;
+	font-family: monospace;
+    font-size: xx-large;
+}
+
+#sstext {
+	padding-top: 2em;
+}
+
+.sevensegments {
+    display: flex;
+    width: auto;
+    justify-items: center;
+    align-items: center;
+	padding-top: 1em;
+}
+
+.sevensegdigit {
+    display: grid;
+    grid-template-columns: 10px 50px 10px;
+    grid-template-rows: 10px 50px 10px 50px 10px;
+    gap: 1px;
+    padding: 10px;
+}
+
+.sevensegdigit>div.s {
+    background-color: rgba(102, 170, 0, 0.2);
+    transition: background-color 0.2s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5) inset;
+    border-radius: 3px;
+}
+
+.sevensegdigit[digit="0"]>div.s0,
+.sevensegdigit[digit="1"]>div.s1,
+.sevensegdigit[digit="2"]>div.s2,
+.sevensegdigit[digit="3"]>div.s3,
+.sevensegdigit[digit="4"]>div.s4,
+.sevensegdigit[digit="5"]>div.s5,
+.sevensegdigit[digit="6"]>div.s6,
+.sevensegdigit[digit="7"]>div.s7,
+.sevensegdigit[digit="8"]>div.s8,
+.sevensegdigit[digit="9"]>div.s9,
+.sevensegdigit[digit="A"]>div.sA,
+.sevensegdigit[digit="B"]>div.sB,
+.sevensegdigit[digit="C"]>div.sC,
+.sevensegdigit[digit="D"]>div.sD,
+.sevensegdigit[digit="E"]>div.sE,
+.sevensegdigit[digit="F"]>div.sF,
+.sevensegdigit[digit="G"]>div.sG,
+.sevensegdigit[digit="H"]>div.sH,
+.sevensegdigit[digit="I"]>div.sI,
+.sevensegdigit[digit="J"]>div.sJ,
+.sevensegdigit[digit="K"]>div.sK,
+.sevensegdigit[digit="L"]>div.sL,
+.sevensegdigit[digit="M"]>div.sM,
+.sevensegdigit[digit="N"]>div.sN,
+.sevensegdigit[digit="O"]>div.sO,
+.sevensegdigit[digit="P"]>div.sP,
+.sevensegdigit[digit="Q"]>div.sQ,
+.sevensegdigit[digit="R"]>div.sR,
+.sevensegdigit[digit="S"]>div.sS,
+.sevensegdigit[digit="T"]>div.sT,
+.sevensegdigit[digit="U"]>div.sU,
+.sevensegdigit[digit="V"]>div.sV,
+.sevensegdigit[digit="W"]>div.sW,
+.sevensegdigit[digit="X"]>div.sX,
+.sevensegdigit[digit="Y"]>div.sY,
+.sevensegdigit[digit="Z"]>div.sZ {
+    background-color: rgba(102, 170, 0, 1);
+}
+
+#sstext {
+    font-size: xx-large;
+}
