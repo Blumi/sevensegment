@@ -2,7 +2,7 @@ body {
 	background-color: #333;
 	color: #ddd;
 	font-family: monospace;
-    font-size: xx-large;
+	font-size: xx-large;
 }
 
 #sstext {
@@ -10,26 +10,26 @@ body {
 }
 
 .sevensegments {
-    display: flex;
-    width: auto;
-    justify-items: center;
-    align-items: center;
+	display: flex;
+	width: auto;
+	justify-items: center;
+	align-items: center;
 	padding-top: 1em;
 }
 
 .sevensegdigit {
-    display: grid;
-    grid-template-columns: 10px 50px 10px;
-    grid-template-rows: 10px 50px 10px 50px 10px;
-    gap: 1px;
-    padding: 10px;
+	display: grid;
+	grid-template-columns: 10px 50px 10px;
+	grid-template-rows: 10px 50px 10px 50px 10px;
+	gap: 1px;
+	padding: 10px;
 }
 
 .sevensegdigit>div.s {
-    background-color: rgba(102, 170, 0, 0.2);
-    transition: background-color 0.2s;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5) inset;
-    border-radius: 3px;
+	background-color: rgba(102, 170, 0, 0.2);
+	transition: background-color 0.2s;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5) inset;
+	border-radius: 3px;
 }
 
 .sevensegdigit[digit="0"]>div.s0,
@@ -68,9 +68,5 @@ body {
 .sevensegdigit[digit="X"]>div.sX,
 .sevensegdigit[digit="Y"]>div.sY,
 .sevensegdigit[digit="Z"]>div.sZ {
-    background-color: rgba(102, 170, 0, 1);
-}
-
-#sstext {
-    font-size: xx-large;
+	background-color: rgba(102, 170, 0, 1);
 }
