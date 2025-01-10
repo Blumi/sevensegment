@@ -5,4 +5,4 @@ Few lines of JavaScript code is just there to change the class values dynamicall
 
 Fun little code for education purposes.
 
-![Screenshot](sevensegment.png "Example output")
+![Screenshot](7segments.png "Example output")
